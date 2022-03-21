@@ -1,0 +1,54 @@
+.navb{
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.innavb{
+    display: flex;
+    justify-content: space-between;
+}
+.li1,.li2,.li3{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px 0px;
+}
+.mimg{
+    width: 100%;
+}
+.boxes{
+    display: flex;
+}
+.simg{
+    display: flex ;
+    flex-direction: column;
+    height: 10rem;
+    margin-left: 45px;
+}
+.html{
+    text-align: center; 
+}
+.css{
+    text-align: center;
+}
+.js{
+    text-align: center;
+}
+.foot{
+    background-color: black;
+    padding: 4px;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    height: 2rem;
+}
+.boxes>div{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.innavb :hover{
+    cursor: pointer;
+    color: red;
+}
